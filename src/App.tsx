@@ -3,7 +3,10 @@ import { Header,
   Hero, 
   Features, 
   MoreInformation, 
-  Testimonials } from './components'
+  Testimonials,
+  Form,
+  Footer
+} from './components'
 
 function App() {
   
@@ -26,13 +29,21 @@ function App() {
 
       </section>
       
-      <section className='bg-Navy-900 p-6'>
+      <section className='bg-Navy-900 p-6  pb-75'>
       <Hero />
       <Features />
       <MoreInformation />
       <Testimonials />
+      <Form />
       </section>
-      </main>
+
+      <section className='bg-Navy-950 h-25px relative'>
+      <Form />
+      <Footer />
+      </section>
+      
+      
+    </main>
       
     
     </>
